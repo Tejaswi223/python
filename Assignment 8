@@ -1,0 +1,17 @@
+print("sum of fibonacci series")
+n=15
+f1=0
+f2=1
+sum=0
+count=0
+while i<n:
+    sum=sum+f1
+    f=f1+f2
+    f1=f2
+    f2=f
+    count=count+1
+    print(f1,end=" ")
+print("sum of n numbers are ----", sum)
+output:
+sum of fibonacci series
+1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 sum of n numbers are ---- 986
