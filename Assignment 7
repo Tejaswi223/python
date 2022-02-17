@@ -1,0 +1,14 @@
+even=0
+odd=0
+print("sum of even and odd numbers")
+for i in range(100):
+    if i%2==0:
+        even=even+i
+    else:
+        odd=odd+i
+print(" sum of even numbers",even)
+print(" sum of odd numbers",odd)
+output:
+sum of even and odd numbers
+ sum of even numbers 2450
+ sum of odd numbers  2500
