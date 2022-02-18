@@ -1,4 +1,4 @@
-n=110
+n=int(input('enter the number'))
 count=0
 num=10
 for num in range(n):
@@ -10,4 +10,4 @@ for num in range(n):
     else:
         count=count+1
         print(num)
-print(count)
+print('total of prime numbers:',count)
