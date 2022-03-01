@@ -1,0 +1,6 @@
+x=[1,2,3,6,2,6,2,8,2,6]
+list=[]
+for i in x:
+    if i not in list:
+        list.append([i])
+print(list[i])
