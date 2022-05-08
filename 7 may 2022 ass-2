@@ -1,0 +1,19 @@
+def squares(s):
+    for i in range(1,s):
+        if i%s==0:
+            return False
+        return True
+n=int(input())
+l=[]
+d={}
+for i in range(n):
+    x=int(input())
+    l.append(x)
+j=1
+for i in l:
+    if squares(i):
+        if i>=1000:
+            d[i]='no'
+        else:
+            d[i]='yes'
+print(d)
