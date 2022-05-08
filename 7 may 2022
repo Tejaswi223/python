@@ -1,0 +1,13 @@
+ assignment-1 7 may 22
+l=[]
+d={}
+n=int(input('no.of elements in list:'))
+for i in range(n):
+    a=int(input('enter list elements:'))
+    l.append(a)
+for i in l:
+    if i%2==0:
+        d[i]='yes'
+    else:
+        d[i]='no'
+print(d)
