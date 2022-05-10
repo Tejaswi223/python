@@ -1,0 +1,6 @@
+d={1:'teja',2:'sushma ',3:'dharani',4:'gousiya'}
+d.pop(1)
+d.pop(2)
+d.pop(3)
+d.pop(4)
+print(d)
