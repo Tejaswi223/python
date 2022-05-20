@@ -1,0 +1,9 @@
+a=5
+b=15
+print(5^15)
+print(5&15)
+print(5|15)
+print(a|4)
+print(-5)
+print(5>>20)
+print(10<<24)
